@@ -1,0 +1,11 @@
+body {
+    background-color: #15171a; /* Dark gray background */
+    font-family: Poppins, sans-serif;
+}
+
+.gradient-text {
+    background: linear-gradient(138deg, #ff8660 15%, #8000ff 104.95%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
