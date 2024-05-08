@@ -170,4 +170,124 @@ body {
     height:360px;
     /* align-items: center; */
   }
+
+  /* Experience */
+
+  .experience-section {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    max-width: 804px;
+    padding: 0 20px;
+  }
+
+  .experience-title {
+    align-self: center;
+    background-clip: text;
+    background: var(--Blue-Gradient, linear-gradient(180deg, #5badff 0%, #1373d1 100%));
+    font: 800 35px/102% Poppins, sans-serif;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .experience-item {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 63px;
+    padding: 0 2px;
+    text-align: center;
+    width: 100%;
+  }
+
+  @media (max-width: 991px) {
+    .experience-item {
+      flex-wrap: wrap;
+      margin-top: 40px;
+      max-width: 100%;
+    }
+  }
+
+  .experience-details {
+    color: var(--Primary-Color, #fff);
+    display: flex;
+    font-size: 22px;
+    font-weight: 700;
+    gap: 20px;
+  }
+
+  @media (max-width: 991px) {
+    .experience-details {
+      flex-wrap: wrap;
+    }
+  }
+
+  .company-logo {
+    aspect-ratio: 1.06;
+    object-fit: auto;
+    object-position: center;
+    width: 34px;
+  }
+
+  .job-title {
+    flex-basis: auto;
+    flex-grow: 1;
+    font-family: Poppins, sans-serif;
+  }
+
+  .experience-duration {
+    color: var(--Light-Grey, #8491a0);
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    gap: 8px;
+    line-height: 150%;
+    margin: auto 0;
+  }
+
+  .calendar-icon {
+    aspect-ratio: 1.49;
+    object-fit: auto;
+    object-position: center;
+    width: 18px;
+  }
+
+  .duration {
+    flex-basis: auto;
+    flex-grow: 1;
+    font-family: Poppins, sans-serif;
+  }
+
+  .experience-description {
+    color: var(--Light-Grey, #8491a0);
+    font: 400 14px/22px Poppins, sans-serif;
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  @media (max-width: 991px) {
+    .experience-description {
+      max-width: 100%;
+    }
+  }
+
+  .apple-logo {
+    align-self: start;
+    aspect-ratio: 0.87;
+    fill: var(--Primary-Color, #fff);
+    object-fit: auto;
+    object-position: center;
+    width: 27px;
+  }
+
+  .meta-logo {
+    align-self: start;
+    aspect-ratio: 1.49;
+    fill: var(--Blue-Gradient, #5badff);
+    object-fit: auto;
+    object-position: center; 
+    width: 33px;
+  } 
   
