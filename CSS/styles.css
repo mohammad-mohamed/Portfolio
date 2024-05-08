@@ -2,6 +2,8 @@ body {
     background-color: #15171a; /* Dark gray background */
     font-family: Poppins, sans-serif;
 }
+
+/* home */
 .gradient-text {
     background: linear-gradient(138deg, #ff8660 15%, #8000ff 104.95%);
     -webkit-background-clip: text;
@@ -21,6 +23,12 @@ body {
     width: 100%;
 }
 
+#land{
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+/* about me */
 .about-me-title {
     background: linear-gradient(180deg, #9360ff 0%, #8f1dd5 100%);
     background-clip: text;
@@ -44,16 +52,7 @@ body {
     color: #c5c5c5;
   }
 
-  #land{
-    margin-top: 100px;
-    margin-bottom: 200px;
-  }
 
-  #skills{
-    margin-top: 100px;
-    margin-bottom: 100px;
-  }
-  
   /* .about-me-details-label,
   .about-me-details-value {
     color: #c5c5c5;
@@ -91,6 +90,7 @@ body {
     padding: 24px 28px;
   }
 
+  /* Skills */
   .skills-section {
     max-width: 872px;
     margin: 0 auto; /* Center horizontally */
@@ -135,3 +135,39 @@ body {
     aspect-ratio: 0.88;
     width: 62px;
   }
+
+  #skills{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  /* Project */
+
+  .projects-section {
+    padding: 0 20px;
+  }
+  .projects-heading {
+    text-transform: uppercase;
+    font: 800 35px/102% Poppins, sans-serif;
+    background: linear-gradient(180deg, #ff8660 0%, #d5491d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    align-self: center;
+    margin-top: 200px; /* Adjusted margin-top */
+    margin-bottom: 100px;
+    text-align: center; /* Centered title */
+  }
+  .projects-container {
+    margin-top: 33px;
+  }
+  .project-thumbnail {
+    max-width: 100%; 
+    height: auto; 
+  }
+
+  .carousel-inner {
+    width:640px;
+    height:360px;
+    /* align-items: center; */
+  }
+  
