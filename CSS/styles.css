@@ -5,6 +5,9 @@ body {
   overflow-x: hidden;
 }
 
+.navbar-brand{
+  width: 60px;
+}
 
 
 
@@ -536,23 +539,6 @@ margin-bottom: 120px;
 }
 /* testimonial */
 
-/* *,*::after, *::before {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0; 
-}*/
-
-/* #carouselExampleCaptions {
-margin: auto;
-margin-top: 100px;
-width: 80vw;
-height: 100%;
-
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-} */
 
 .carousel-inner {
   width: 100%;
@@ -622,6 +608,27 @@ width: 70vw;
 height: 70vw;
 }
 
+.card-img-top {
+  width: 100%;
+  height: 225px; /* Adjust height as needed */
+}
+
+.card-img-top img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire area */
+}
+
+.carousel-inner svg image {
+  width: 100%;
+  height: 100%;
+}
+
+#size{
+  width:10%;
+  height: 10%;
+}
+
 .card img {
   width: 100%;
 }
@@ -659,6 +666,46 @@ border-radius: 10px;
 #testimonial{
   margin-bottom: 120px;
 }
+
+/* Add these styles to set width and height */
+.carousel-inner svg image,
+.card-img-top img {
+    width: 100%;
+    height: 100%;
+}
+
+/* You can remove these styles from your HTML since they're now in CSS */
+.card-img-top {
+    width: 100%;
+    height: 225px; /* Adjust height as needed */
+}
+
+@media screen and (max-width: 900px) {
+    /* Add these styles to set width and height */
+    #size {
+        width: 10%;
+        height: 10%;
+    }
+
+    /* You can remove these styles from your HTML since they're now in CSS */
+    #carouselExampleCaptions {
+        width: 70vw;
+        height: 70vw;
+    }
+
+    .card img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    /* You can remove these styles from your HTML since they're now in CSS */
+    #carouselExampleCaptions {
+        width: 70vw;
+        height: 70vh;
+    }
+}
+
 
 /* Contact */
     
@@ -1173,17 +1220,9 @@ padding: 0 15px;
 }
 
 .footer-text {
-  color: var(--light-Content, #a7a7a7);
-  text-align: center;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-color: var(--Gradient-Heading, linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%));
-  flex-grow: 1;
-  flex-basis: auto;
-  font: 400 18px/26px Poppins, sans-serif;
-  margin-bottom: 20px; /* Added margin for better spacing */
-}
+font-weight: 100;
+font-size: medium;
+color: white;
 
 .footer-social-icons {
   align-self: start;
@@ -1296,4 +1335,4 @@ padding: 0 15px;
 	   text-shadow: 0 0 60px rgb(152, 0, 253), 0 0 70px rgb(152, 0, 253);
 	 }
    
-}
+}}
