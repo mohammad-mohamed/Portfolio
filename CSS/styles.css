@@ -44,7 +44,7 @@ margin-bottom: 120px;
   white-space: nowrap;
   margin: 0 auto;
   padding: 0 10px;
-  animation: typing 5s steps(80, end), blink-caret .75s step-end infinite;
+  animation: typing 5s steps(80, end), blink-caret .75s infinite;
 }
 @keyframes blink-caret {
   from, to { border-color: transparent }
@@ -1203,4 +1203,97 @@ padding: 0 15px;
 }
 
 /*=====  End of Fields  ======*/
-{}
+
+/* make glow for title */
+#text-glow1 {
+
+	animation: glow1 1s ease-in-out infinite alternate;
+	  
+   }
+
+   @keyframes glow1 {
+     from{
+	   text-shadow: 0 0 10px rgb(253, 0, 253), 0 0 20px rgb(253, 0, 253), 0 0 30px rgb(253, 0, 253), 0 0 40px rgb(253, 0, 253),0 0 50px rgb(253, 0, 253);
+	 }
+	 to {
+	   text-shadow: 0 0 60px rgb(253, 0, 253), 0 0 70px rgb(253, 0, 253);
+	 }
+   
+}
+
+#text-glow2 {
+    
+	animation: glow2 1s ease-in-out infinite alternate;
+	  
+   }
+
+   @keyframes glow2 {
+     from{
+	   text-shadow: 0 0 10px rgb(0, 253, 34), 0 0 20px rgb(0, 253, 34), 0 0 30px rgb(0, 253, 34), 0 0 40px rgb(0, 253, 34),0 0 50px rgb(0, 253, 34);
+	 }
+	 to {
+	   text-shadow: 0 0 60px rgb(0, 253, 34), 0 0 70px rgb(0, 253, 34);
+	 }
+   
+}
+
+#text-glow3 {
+    
+	animation: glow3 1s ease-in-out infinite alternate;
+	  
+   }
+
+   @keyframes glow3 {
+     from{
+	   text-shadow: 0 0 10px rgb(253, 173, 0), 0 0 20px rgb(253, 173, 0), 0 0 30px rgb(253, 173, 0), 0 0 40px rgb(253, 173, 0),0 0 50px rgb(253, 173, 0);
+	 }
+	 to {
+	   text-shadow: 0 0 60px rgb(253, 173, 0), 0 0 70px rgb(253, 173, 0);
+	 }
+   
+}
+#text-glow4 {
+    
+	animation: glow4 1s ease-in-out infinite alternate;
+	  
+   }
+
+   @keyframes glow4 {
+     from{
+	   text-shadow: 0 0 10px rgb(0, 42, 253), 0 0 20px rgb(0, 42, 253), 0 0 30px rgb(0, 42, 253), 0 0 40px rgb(0, 42, 253),0 0 50px rgb(0, 42, 253);
+	 }
+	 to {
+	   text-shadow: 0 0 60px rgb(0, 42, 253), 0 0 70px rgb(0, 42, 253);
+	 }
+   
+}
+#text-glow5 {
+    
+	animation: glow5 1s ease-in-out infinite alternate;
+	  
+   }
+
+   @keyframes glow5 {
+     from{
+	   text-shadow: 0 0 10px rgb(253, 0, 0), 0 0 20px rgb(253, 0, 0), 0 0 30px rgb(253, 0, 0), 0 0 40px rgb(253, 0, 0),0 0 50px rgb(253, 0, 0);
+	 }
+	 to {
+	   text-shadow: 0 0 60px rgb(253, 0, 0), 0 0 70px rgb(253, 0, 0);
+	 }
+   
+}
+#text-glow6 {
+    
+	animation: glow6 1s ease-in-out infinite alternate;
+	  
+   }
+
+   @keyframes glow6 {
+     from{
+	   text-shadow: 0 0 10px rgb(152, 0, 253), 0 0 20px rgb(152, 0, 253), 0 0 30px rgb(152, 0, 253), 0 0 40px rgb(152, 0, 253),0 0 50px rgb(152, 0, 253);
+	 }
+	 to {
+	   text-shadow: 0 0 60px rgb(152, 0, 253), 0 0 70px rgb(152, 0, 253);
+	 }
+   
+}
